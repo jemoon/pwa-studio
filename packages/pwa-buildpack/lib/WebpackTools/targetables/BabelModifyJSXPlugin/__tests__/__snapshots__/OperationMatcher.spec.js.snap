@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`serializes all pretty 1`] = `
+"file.insertBeforeJSX(
+  'span',
+  {
+  jsx: '<i>yo</i>'
+}
+)"
+`;
+
+exports[`serializes all pretty 2`] = `
+"file.removeJSX(
+  '<i>'
+)"
+`;
